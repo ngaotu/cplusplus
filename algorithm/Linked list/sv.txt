@@ -1,0 +1,5 @@
+Nguyen Thanh An,VJU21110111,06/06/2003,9
+Nguyen Minh Hai,PCCC2003,10/10/2003,8
+Nguyen Thanh Tung,VJU21110111,06/06/2003,8.5
+
+

@@ -1,0 +1,11 @@
+/ sequence : chuoi
+ abstract data types: du lieu truu tuong
+ danh sach lien ket don gom cac nut (Node) duoc noi voi nhau theo 1 chieu 
+ 1 Node gom 2 phan : 
+ +) Data 
+ +) liet ket ( pointer)
+
+ Node dau tien cua dslk don : pHead
+Node cuoi cung cua dslk don: PTail
+cac Node khong co chi so nen khi muon truy xuat den mot node bat ki ta bat buoc
+phai duyet tu pHead den pTail ( nhuoc diem cua dslk don so voi amng 1 chieu)

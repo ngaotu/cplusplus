@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\html+css"
+		},
+		{
+			"path": "..\\..\\Jvs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html+css",
+		"files.associations": {
+			"iostream": "cpp",
+			"cmath": "cpp",
+			"complex": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}

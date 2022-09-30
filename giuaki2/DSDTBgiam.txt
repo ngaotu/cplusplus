@@ -1,0 +1,13 @@
+
+Sinh vien: 
+nguyen thanh tung
+Toan: 10
+Ly: 101
+Hoa: 10
+============
+Sinh vien: 
+nguye ngoc  quy
+Toan: 10
+Ly: 10
+Hoa: 9
+============
