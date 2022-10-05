@@ -1,0 +1,13 @@
+# cac loai cay  pho bien:
+ - binary tree
+ -binary-search tree
+
+// bieu dien cay nhi phan: 
+- danh sach lien ket
+- bang mang
+// cac thao tac tren cay:
+-xay dung/ tao cay
+-them,xoa node tren cay
+-khao sat/ duyet cay
+-tim kiem tren cay
+
