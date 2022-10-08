@@ -6,16 +6,23 @@ void Input(int * a ,int n){
         cin>>a[i];
     }
 }
+void Show(int * a ,int n){
+    for(int i =0;i<n;i++){
+        cout<<a[i]<<" ";
+    }
+}
 void SelectionSort(int * a,int n){
     int min;
     for (int i=0;i<n-1;i++){
         min =i;
         for ( int j=i+1;j<n;j++){
-            if(a[j]<a[i]){
+            if(a[j]<a[min]){
                 min = j;
             }
         }
         swap(a[min],a[i]);
+        Show(a,n);
+        cout<<endl;
     }
 }
 void BubbleSort(int * a,int n){
@@ -41,18 +48,14 @@ void InsertionSort(int*a ,int n){
 
     }
 }
-void Show(int * a ,int n){
-    for(int i =0;i<n;i++){
-        cout<<a[i]<<" ";
-    }
-}
+
 int main (){
     int n;
     cin>>n;
     int a[n];
     Input(a,n);
     // SelectionSort(a,n);
-    InsertionSort(a,n);
+    SelectionSort(a,n);
     Show(a,n);
     return 0;
 }
