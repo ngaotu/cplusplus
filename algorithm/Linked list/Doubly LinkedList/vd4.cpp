@@ -79,5 +79,5 @@ int n;
 CreateList(l);
 GetInput(l,p,q,n);
 PrintResult(l);
-    return 0;
+return 0;
 }

@@ -18,19 +18,21 @@ string standardize_string(string s){
     }
 int main (){
     string s = "0P";
-    s= standardize_string(s);
-    cout<<s<<endl;
-        string tmp =s;
-        int left = 0;
-        int right = tmp.length()-1;
-        while(left<right){
-            swap(tmp[left],tmp[right]);
-            left++;
-            right--;
-        }
-        cout<<s<<endl;
-        cout<<tmp<<endl;
-        bool ok  = (tmp==s);
-        cout<<ok;
+    // s= standardize_string(s);
+    // cout<<s<<endl;
+    //     string tmp =s;
+    //     int left = 0;
+    //     int right = tmp.length()-1;
+    //     while(left<right){
+    //         swap(tmp[left],tmp[right]);
+    //         left++;
+    //         right--;
+    //     }
+    //     cout<<s<<endl;
+    //     cout<<tmp<<endl;
+    //     bool ok  = (tmp==s);
+    //     cout<<ok;
+    s[s.length()-1] = 'Q';
+    cout<<s;
     return 0;
 }
