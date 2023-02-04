@@ -51,16 +51,18 @@ void merge(int  a[],int l,int mid,int r,int & count){
         k++;
     }
 }
-void MergeSort(int a[],int l,int r,int & count){
+void MergeSort(int a[],int l,int r,int & count,int n){
     if(l>=r){
         return;
     }
     int mid;
     mid = (l+r)/2;
-    MergeSort(a,l,mid,count);
-    MergeSort(a,mid+1,r,count);
+    MergeSort(a,l,mid,count,n);
+    MergeSort(a,mid+1,r,count,n);
     // tron 2 mang da sap xep de duoc mang can sap xep
     merge(a,l,mid,r,count);
+    Show(a,n);
+    cout<<endl;
     
     
 }
@@ -70,8 +72,8 @@ int main (){
     cin>>n;
     int a[n];
     Input(a,n);
-    MergeSort(a,0,n-1,count);
-    Show(a,n);
+    MergeSort(a,0,n-1,count,n);
+    // Show(a,n);
     cout<<"So cap nghich the la: "<<count;
     return 0;
 }

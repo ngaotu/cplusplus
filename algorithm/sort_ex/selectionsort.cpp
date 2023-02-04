@@ -55,7 +55,7 @@ int main (){
     int a[n];
     Input(a,n);
     // SelectionSort(a,n);
-    SelectionSort(a,n);
+    InsertionSort(a,n);
     Show(a,n);
     return 0;
 }

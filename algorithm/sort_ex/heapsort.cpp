@@ -34,12 +34,16 @@ void heapify(int * a,int n,int i){
 void Heap(int *a,int n){
     for(int i =(n-2)/2;i>=0;i--){
         heapify(a,n,i);
+        Show(a,n);
+        cout<<endl;
     } 
     // dua phan tu lon nhat ve cuoi mang , giam so phan tu con phai kiem tra di 1
     // xay dung lai max heap cho mang 
     for (int i = n-1;i>=0;i--){
     swap(a[0],a[i]);
     heapify(a,i,0);
+    // Show(a,n);
+    // cout<<endl;
     }
 }
 int main (){
@@ -48,7 +52,7 @@ int main (){
     int a[n];
     Input(a,n);
     Heap(a,n);
-    Show(a,n);
+    // Show(a,n);
 
 
     return 0;
